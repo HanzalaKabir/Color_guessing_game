@@ -47,7 +47,7 @@ colorContainer.addEventListener("click", (e) => {
     answer.innerHTML = "Correct Answer";
   } else {
     colorGenerator();
-    answer.innerHTML = "Incorrect Answer";
+    answer.innerHTML = "Incorrect Answer, try again";
     answer.style.color = `RGB(${x},${y},${z})`;
   }
 });
